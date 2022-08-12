@@ -21,6 +21,24 @@
   object-position: 50% 0%;
 }
 
+.grid-image:hover{
+  opacity: .85;
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+
+
+
 @media (min-width: 300px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
